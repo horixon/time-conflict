@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		D616320A1910182D00B4B5B6 /* UniversalLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D616320D1910182D00B4B5B6 /* Build configuration list for PBXAggregateTarget "UniversalLib" */;
+			buildPhases = (
+				D616320E1910183200B4B5B6 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = UniversalLib;
+			productName = UniversalLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		D69D18E019096C35001B4C7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69D18DF19096C35001B4C7F /* Foundation.framework */; };
+		D69D18E519096C35001B4C7F /* TimeConflict.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D69D18E419096C35001B4C7F /* TimeConflict.h */; };
+		D69D18E719096C35001B4C7F /* TimeConflict.m in Sources */ = {isa = PBXBuildFile; fileRef = D69D18E619096C35001B4C7F /* TimeConflict.m */; };
+		D69D18EE19096C36001B4C7F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69D18ED19096C35001B4C7F /* XCTest.framework */; };
+		D69D18EF19096C36001B4C7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69D18DF19096C35001B4C7F /* Foundation.framework */; };
+		D69D18F119096C36001B4C7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69D18F019096C36001B4C7F /* UIKit.framework */; };
+		D69D18F419096C36001B4C7F /* libTimeConflict.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D69D18DC19096C35001B4C7F /* libTimeConflict.a */; };
+		D69D18FA19096C36001B4C7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D69D18F819096C36001B4C7F /* InfoPlist.strings */; };
+		D69D18FC19096C36001B4C7F /* TimeConflictTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D69D18FB19096C36001B4C7F /* TimeConflictTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D69D18F219096C36001B4C7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D69D18D419096C35001B4C7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D69D18DB19096C35001B4C7F;
+			remoteInfo = TimeConflict;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D69D18DA19096C35001B4C7F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				D69D18E519096C35001B4C7F /* TimeConflict.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D69D18DC19096C35001B4C7F /* libTimeConflict.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTimeConflict.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69D18DF19096C35001B4C7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D69D18E319096C35001B4C7F /* TimeConflict-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimeConflict-Prefix.pch"; sourceTree = "<group>"; };
+		D69D18E419096C35001B4C7F /* TimeConflict.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeConflict.h; sourceTree = "<group>"; };
+		D69D18E619096C35001B4C7F /* TimeConflict.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeConflict.m; sourceTree = "<group>"; };
+		D69D18EC19096C35001B4C7F /* TimeConflictTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeConflictTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69D18ED19096C35001B4C7F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D69D18F019096C36001B4C7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D69D18F719096C36001B4C7F /* TimeConflictTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeConflictTests-Info.plist"; sourceTree = "<group>"; };
+		D69D18F919096C36001B4C7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D69D18FB19096C36001B4C7F /* TimeConflictTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeConflictTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D69D18D919096C35001B4C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69D18E019096C35001B4C7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69D18E919096C35001B4C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69D18F419096C36001B4C7F /* libTimeConflict.a in Frameworks */,
+				D69D18EE19096C36001B4C7F /* XCTest.framework in Frameworks */,
+				D69D18F119096C36001B4C7F /* UIKit.framework in Frameworks */,
+				D69D18EF19096C36001B4C7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D69D18D319096C35001B4C7F = {
+			isa = PBXGroup;
+			children = (
+				D69D18E119096C35001B4C7F /* TimeConflict */,
+				D69D18F519096C36001B4C7F /* TimeConflictTests */,
+				D69D18DE19096C35001B4C7F /* Frameworks */,
+				D69D18DD19096C35001B4C7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D69D18DD19096C35001B4C7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D69D18DC19096C35001B4C7F /* libTimeConflict.a */,
+				D69D18EC19096C35001B4C7F /* TimeConflictTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D69D18DE19096C35001B4C7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D69D18DF19096C35001B4C7F /* Foundation.framework */,
+				D69D18ED19096C35001B4C7F /* XCTest.framework */,
+				D69D18F019096C36001B4C7F /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D69D18E119096C35001B4C7F /* TimeConflict */ = {
+			isa = PBXGroup;
+			children = (
+				D69D18E419096C35001B4C7F /* TimeConflict.h */,
+				D69D18E619096C35001B4C7F /* TimeConflict.m */,
+				D69D18E219096C35001B4C7F /* Supporting Files */,
+			);
+			path = TimeConflict;
+			sourceTree = "<group>";
+		};
+		D69D18E219096C35001B4C7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D69D18E319096C35001B4C7F /* TimeConflict-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D69D18F519096C36001B4C7F /* TimeConflictTests */ = {
+			isa = PBXGroup;
+			children = (
+				D69D18FB19096C36001B4C7F /* TimeConflictTests.m */,
+				D69D18F619096C36001B4C7F /* Supporting Files */,
+			);
+			path = TimeConflictTests;
+			sourceTree = "<group>";
+		};
+		D69D18F619096C36001B4C7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D69D18F719096C36001B4C7F /* TimeConflictTests-Info.plist */,
+				D69D18F819096C36001B4C7F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D69D18DB19096C35001B4C7F /* TimeConflict */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69D18FF19096C36001B4C7F /* Build configuration list for PBXNativeTarget "TimeConflict" */;
+			buildPhases = (
+				D69D18D819096C35001B4C7F /* Sources */,
+				D69D18D919096C35001B4C7F /* Frameworks */,
+				D69D18DA19096C35001B4C7F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeConflict;
+			productName = TimeConflict;
+			productReference = D69D18DC19096C35001B4C7F /* libTimeConflict.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D69D18EB19096C35001B4C7F /* TimeConflictTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69D190219096C36001B4C7F /* Build configuration list for PBXNativeTarget "TimeConflictTests" */;
+			buildPhases = (
+				D69D18E819096C35001B4C7F /* Sources */,
+				D69D18E919096C35001B4C7F /* Frameworks */,
+				D69D18EA19096C35001B4C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D69D18F319096C36001B4C7F /* PBXTargetDependency */,
+			);
+			name = TimeConflictTests;
+			productName = TimeConflictTests;
+			productReference = D69D18EC19096C35001B4C7F /* TimeConflictTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D69D18D419096C35001B4C7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = justiwag;
+			};
+			buildConfigurationList = D69D18D719096C35001B4C7F /* Build configuration list for PBXProject "TimeConflict" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D69D18D319096C35001B4C7F;
+			productRefGroup = D69D18DD19096C35001B4C7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D69D18DB19096C35001B4C7F /* TimeConflict */,
+				D69D18EB19096C35001B4C7F /* TimeConflictTests */,
+				D616320A1910182D00B4B5B6 /* UniversalLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D69D18EA19096C35001B4C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69D18FA19096C36001B4C7F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D616320E1910183200B4B5B6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "UNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n\nxcodebuild -target TimeConflict ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target TimeConflict -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}-tmp.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\nxcodebuild -target TimeConflict -configuration ${CONFIGURATION} -sdk iphonesimulator -arch x86_64 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}-tmp.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\nrm -r \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}-tmp.a\"\n\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D69D18D819096C35001B4C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69D18E719096C35001B4C7F /* TimeConflict.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69D18E819096C35001B4C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69D18FC19096C36001B4C7F /* TimeConflictTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D69D18F319096C36001B4C7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D69D18DB19096C35001B4C7F /* TimeConflict */;
+			targetProxy = D69D18F219096C36001B4C7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D69D18F819096C36001B4C7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D69D18F919096C36001B4C7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D616320B1910182D00B4B5B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D616320C1910182D00B4B5B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D69D18FD19096C36001B4C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D69D18FE19096C36001B4C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D69D190019096C36001B4C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TimeConflict.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeConflict/TimeConflict-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D69D190119096C36001B4C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TimeConflict.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeConflict/TimeConflict-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D69D190319096C36001B4C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeConflict/TimeConflict-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TimeConflictTests/TimeConflictTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D69D190419096C36001B4C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeConflict/TimeConflict-Prefix.pch";
+				INFOPLIST_FILE = "TimeConflictTests/TimeConflictTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D616320D1910182D00B4B5B6 /* Build configuration list for PBXAggregateTarget "UniversalLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D616320B1910182D00B4B5B6 /* Debug */,
+				D616320C1910182D00B4B5B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D69D18D719096C35001B4C7F /* Build configuration list for PBXProject "TimeConflict" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69D18FD19096C36001B4C7F /* Debug */,
+				D69D18FE19096C36001B4C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69D18FF19096C36001B4C7F /* Build configuration list for PBXNativeTarget "TimeConflict" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69D190019096C36001B4C7F /* Debug */,
+				D69D190119096C36001B4C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69D190219096C36001B4C7F /* Build configuration list for PBXNativeTarget "TimeConflictTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69D190319096C36001B4C7F /* Debug */,
+				D69D190419096C36001B4C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D69D18D419096C35001B4C7F /* Project object */;
+}
